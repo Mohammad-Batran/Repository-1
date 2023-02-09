@@ -51,7 +51,7 @@ public:
     }
     void DeleteFromStart()
     {
-        if(IsFull())
+        if(IsEmpty())
         cout<<"Sorry, I cannot delete its already empty.";
         
         else
@@ -63,7 +63,7 @@ public:
     }
     void DeleteFromEnd()
     {
-        if(IsFull())
+        if(IsEmpty())
         cout<<"Sorry, I cannot delete its already empty.";
         
         else
@@ -71,7 +71,7 @@ public:
     }
     void DeleteFromPosition(int pos)
     {
-        if(IsFull())
+        if(IsEmpty())
         cout<<"Sorry, I cannot delete its already empty.";
 
         else
